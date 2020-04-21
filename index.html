@@ -2,18 +2,22 @@
 <html>
     <head>
         <title>Rebel(v.) Coffee</title>
-        <link href="main.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="fire.js"></script>
+        <link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="scripts/fire.js"></script>
+        <script type="text/javascript" src="scripts/form.js"></script>
     </head>
-    <header>
+    <header onclick="toggleForm()">
         <h1>REBEL(v.)</h1>
         <h2>Coffee Roasters</h2>
         <h3>Washington, DC</h3>
         <h3>EST. 2020</h3>
     </header>
     <body>
-        <div class="container">
-            <canvas id="panel" onclick="location.href='form.html'"></canvas>
+        <div id="form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTzWscOaFIVYfZzxQAET3RTCRJVYNmmBW0ZcOjYodga7M3AQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
+        <div class="container">
+            <canvas id="panel" onclick="toggleForm()"></canvas>
+        </div>  
     </body>
 </html>

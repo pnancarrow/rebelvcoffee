@@ -3,7 +3,7 @@
     padding:0;
 }
 body {
-    background-image: url('rebelv.jpg');
+    background-image: url('../rebelv.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -19,6 +19,7 @@ header {
     position:fixed;
     height: 150%;
     width: 100%;
+    z-index: -1;
 }
 iframe {
     display: block;
@@ -27,4 +28,8 @@ iframe {
     padding-top: 25px;
     width: 100%;
     height: 700px;
+    z-index: 1;
+}
+#form {
+    display: none;
 }
