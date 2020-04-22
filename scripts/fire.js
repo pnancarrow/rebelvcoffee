@@ -81,3 +81,12 @@ function main_init() {
     out_data = new_filled_array(data_width * data_height, 0)
     setInterval(drawScene, 30); // loop drawScene
 }
+
+function toggleForm() {
+    var form = document.getElementById("form");
+    if (!form.style.display || form.style.display === "none") {
+      form.style.display = "block";
+    } else {
+      form.style.display = "none";
+    }
+  } 
