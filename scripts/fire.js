@@ -84,9 +84,13 @@ function main_init() {
 
 function toggleForm() {
     var form = document.getElementById("form");
+    var button = document.getElementById("button");
+
     if (!form.style.display || form.style.display === "none") {
       form.style.display = "block";
+      button.style.display = "none";
     } else {
       form.style.display = "none";
+      button.style.display = "flex";
     }
   } 

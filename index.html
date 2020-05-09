@@ -20,15 +20,14 @@
         <h2>Coffee Roasters</h2>
         <h3>Washington, DC</h3>
         <h3>EST. 2020</h3>
-        <br />
-        <button style="padding: 10px;" onclick="toggleForm()">ORDER SOME DAMN COFFEE</button>
     </header>
     <body>
-        <div id="form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTzWscOaFIVYfZzxQAET3RTCRJVYNmmBW0ZcOjYodga7M3AQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div>
+            <button id="button" type="button" onclick="toggleForm()">I WANT COFFEE</button>
+            <iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSfTzWscOaFIVYfZzxQAET3RTCRJVYNmmBW0ZcOjYodga7M3AQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         <div class="container">
-            <canvas id="panel" onclick="toggleForm()"></canvas>
+            <canvas id="panel"></canvas>
         </div>  
     </body>
     <footer>
