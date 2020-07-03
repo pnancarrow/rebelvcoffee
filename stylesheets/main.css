@@ -13,13 +13,16 @@ body {
 button {   
     background-color: lavender;
     cursor: pointer;
-    display: flex;
     font-weight: bold;
     font-size: 16px;
-    margin: auto;
-    margin-top: 20%;  
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
     padding: 1% 2%;
+    position: absolute;
     text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 header {
     padding-top: 25px;
