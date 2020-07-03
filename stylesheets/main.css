@@ -3,10 +3,12 @@
     padding:0;
 }
 body {
-    background-image: url('../images/rebelv.jpg');
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: #b6bee4;
+    background-image: url('../images/rebelv.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     overflow: hidden;
 }
 button {   
@@ -34,7 +36,6 @@ footer {
     position: fixed;  
     text-align: center;
     width: 100%;
-    z-index: -2;
 }
 .container #panel {
     bottom: 0px;
@@ -53,4 +54,11 @@ iframe {
 }
 #form {
     display: none;
+}
+img {
+    height: 29px;
+    width: 29px;
+}
+li {
+    display: inline-block;
 }
