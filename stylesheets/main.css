@@ -8,7 +8,6 @@ body {
     background-image: url('../images/rebelv.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
     overflow: hidden;
 }
 button {   
