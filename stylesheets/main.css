@@ -54,9 +54,6 @@ iframe {
     height: 700px;
     z-index: 1;
 }
-#form {
-    display: none;
-}
 img {
     height: 29px;
     width: 29px;
